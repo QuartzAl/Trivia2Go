@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
+
+*{
+    font-family: "Inter";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+body{
+    background-color: rgb(221, 241, 253);
+}
+.img1{
+    display: block;
+    width: 100%;
+}
+.sign{
+    background-color: rgb(140, 48, 245);
+    border: 0ch;
+}
+.img2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1cm;
+    width: 75%;
+  }
+h1{
+    text-align: center;
+    margin-top: 1cm;
+}
+.img3 {
+    display: block;
+    margin-top: 1cm;
+    width: 100%;
+}
