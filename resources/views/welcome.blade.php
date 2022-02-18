@@ -9,18 +9,30 @@
 
 </head>
 <body>
-    <div>
-        <img src="./assets/img/header.svg" class="img1" alt="">
-        <button class="sign">Sign Up</button>
-        <button class="">Log In</button>
+    <div class="header">
+        <div class="signup">Sign Up</div>
+        <div class="signup">Log In</div>
     </div>
+
     <div>
         <h1>Try a new way to play quizzes</h1>
-        <img src="./assets/img/BG Mask.svg" class="img2" alt="">
+    </div>
+    <div class="img2" style=" background-image: url('./assets/img/BG Mask.svg');">
+        
+        <img src="./assets/img/Mail Icon.svg" alt=""/>
+        <div >
+            <h1>join a game now</h1>
+            <div class="box">
+                <input type="text" placeholder="Game Invite ID" name="" id="" class="text-input">
+            <div class="button-join">Join the Game!</div>
+            </div>
+            
+        </div>
+        
 
     </div>
-    <div>
-        <img src="./assets/img/Circle BG.svg" class="img3" alt="" >
+    <div class="img3" style=" background-image: url('./assets/img/Circle BG.svg');">
+        
     </div>
     
 </body>
