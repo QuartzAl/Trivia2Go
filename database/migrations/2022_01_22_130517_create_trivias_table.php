@@ -16,6 +16,8 @@ class CreateTriviasTable extends Migration
         Schema::create('trivias', function (Blueprint $table) {
             $table->id();
             $table->foreignId('user_id')->constrained();
+            $table->string('name', 100);
+            $table->string('description', 250);
             $table->timestamps();
         });
     }

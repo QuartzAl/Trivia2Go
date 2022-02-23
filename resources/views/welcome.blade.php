@@ -10,8 +10,8 @@
 </head>
 <body>
     <div class="header">
-        <div class="signup">Sign Up</div>
-        <div class="signup">Log In</div>
+        <a href="{{route('signup')}}" class="signup">Sign Up</a>
+        <a href="{{route('login')}}" class="signup">Log In</a>
     </div>
 
     <div>
@@ -24,7 +24,7 @@
             <h1>join a game now</h1>
             <div class="box">
                 <input type="text" placeholder="Game Invite ID" name="" id="" class="text-input">
-            <div class="button-join">Join the Game!</div>
+            <a href="{{route('triviastart')}}" class="button-join">Join the Game!</a>
             </div>
             
         </div>
