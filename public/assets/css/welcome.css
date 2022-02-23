@@ -91,3 +91,12 @@ h1{
     border-radius: 0% 10% 10% 0% / 0% 50% 50% 0%  ;
     
 }
+.login{
+    background-color: rgb(140, 48, 245) ;
+    border: 0ch;
+    color: white;
+    margin: 0px 25px;
+    height: 1cm;
+    width: 2cm;
+    border-radius: 10px;
+}

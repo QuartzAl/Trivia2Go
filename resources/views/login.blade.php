@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>login</title>
-    <link rel="stylesheet" href="resouces/login.css" integrity="sha256-3sPp8BkKUE7QyPSl6VfBByBroQbKxKG7tsusY2mhbVY=" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/login.css">
 </head>
 <body>
+    
 <div class="container">
             <div class="row">
                 <div class="col-md-11 mt-60 mx-md-auto">
