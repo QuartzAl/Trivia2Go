@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>welcome</title>
     <link rel="stylesheet" href="./assets/css/welcome.css">
-
 </head>
 <body>
     <div class="header">
@@ -21,7 +20,7 @@
         
         <img src="./assets/img/Mail Icon.svg" alt=""/>
         <div >
-            <h1>join a game now</h1>
+            <h1>Join a game now</h1>
             <div class="box">
                 <input type="text" placeholder="Game Invite ID" name="" id="" class="text-input">
             <a href="{{route('triviastart')}}" class="button-join">Join the Game!</a>
@@ -36,4 +35,5 @@
     </div>
     
 </body>
+
 </html>
