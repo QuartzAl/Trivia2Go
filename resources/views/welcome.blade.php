@@ -23,7 +23,7 @@
             <h1>Join a game now</h1>
             <div class="box">
                 <input type="text" placeholder="Game Invite ID" name="" id="" class="text-input">
-            <a href="{{route('triviastart')}}" class="button-join">Join the Game!</a>
+            <a href="/trivia/1" class="button-join">Join the Game!</a>
             </div>
             
         </div>
