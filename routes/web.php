@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\TriviaController;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -18,12 +19,10 @@ Route::get('/', function () {
     return view('welcome');
 })->name('welcome');
 
-Route::get('/login', function () {
-    return view('login');
-})->name('login');
-
-Route::get('/signup', function () {
-    return view('signup');
-})->name('signup');
-
 Route::resource('trivia', TriviaController::class);
+
+Auth::routes(['verify' => true]);
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
