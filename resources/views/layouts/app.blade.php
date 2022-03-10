@@ -68,6 +68,9 @@
                                         @csrf
                                     </form>
                                 </div>
+                                <div>
+                                    <a href="{{route('trivia.create')}}">Create a quiz!</a>
+                                </div>
                             </li>
                         @endguest
                     </ul>
