@@ -16,9 +16,9 @@ class CreateQuestionsTable extends Migration
         Schema::create('questions', function (Blueprint $table) {
             $table->id();
             $table->foreignId('trivias_id')->constrained();
-            $table->bigInteger('question_no')->nullable();
+            $table->bigInteger('question_no')->nullable()->default(null);
             $table->string('question', 300);
-            $table->biginteger('points')->nullable();
+            $table->biginteger('points')->nullable()->default(0);
             $table->timestamps();
         });
     }
